@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 0;
+    box-shadow: 1px 1px 5px 1px white;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 40px;
+    position: relative;
+    right: 5em;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header nav li {
+    display: inline;
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+
+header ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card article {
+    width: 30%;
+    padding: 20px;
+    border: solid rgb(255, 255, 255) 1px;
+    margin: 30px 0;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+}
+
+.card h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.card p {
+    font-weight: normal;
+    font-size: 18px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    height: 25em;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px auto;
+    transition: 0.5s;
+    width: 270px;
+}
+
+img:hover {
+    transform: scale(.9);
+    filter: blur(1px);
+    border: none;
+}
+
+
+#contact .container{
+    display: block;
+    margin-top: 5em;
+    padding: 10px;
+}
+
+
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 100px;
+}
+
+
+
+section h3, section label{
+    margin-bottom: 16px;
+    color: white;
+}
+
+form button{
+    background-color: #181d2c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+
